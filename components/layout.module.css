@@ -1,0 +1,11 @@
+.container {
+  max-width: 80rem;
+  padding: 0 1rem;
+  margin: 1rem auto 1rem;
+}
+
+.header {
+  position: absolute;
+  padding: 1rem;
+}
+
