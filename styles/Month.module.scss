@@ -1,0 +1,30 @@
+.icon {
+  position: relative;
+  top: .5rem
+}
+
+.sectionHeader{
+  align-self: center;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.date {
+  font-size: small;
+  padding: 0;
+  margin: 0.5;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}

@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import MonthBox from '../components/monthBox'
 import styles from '../styles/FutureLog.module.scss'
 import Task, { TaskType } from '../components/task'
+import React from "react"
+import Head from "next/head"
 
 function CreateMonths() {
   let months = [];
@@ -21,6 +23,9 @@ function CreateMonths() {
 export default function FutureLog() {
   return(
     <Layout>
+      <Head>
+        <title>Future Log</title>
+      </Head>
       <main>
       <h1>Future Log</h1>
       <h2>
